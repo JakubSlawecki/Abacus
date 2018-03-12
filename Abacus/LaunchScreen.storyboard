@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchbg" translatesAutoresizingMaskIntoConstraints="NO" id="KGb-nh-dEn">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchground" translatesAutoresizingMaskIntoConstraints="NO" id="skW-bg-2QR">
+                                <rect key="frame" x="0.0" y="643" width="414" height="93"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="93" id="fxn-In-cnk"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="robot" translatesAutoresizingMaskIntoConstraints="NO" id="NMy-o8-rrC">
+                                <rect key="frame" x="70" y="224" width="273" height="130"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Retro-Calc" translatesAutoresizingMaskIntoConstraints="NO" id="Mab-U4-iHg">
+                                <rect key="frame" x="70" y="142" width="273" height="56"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jakub" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DjB-Lw-Nrh">
+                                <rect key="frame" x="335" y="614" width="59" height="21"/>
+                                <color key="tintColor" red="0.99195677042007446" green="0.99622899293899536" blue="0.99192315340042114" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="8kg-Go-5Ia"/>
+                                    <constraint firstAttribute="width" constant="59" id="wgi-Pu-zoQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.2124162946" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Mab-U4-iHg" firstAttribute="trailing" secondItem="NMy-o8-rrC" secondAttribute="trailing" id="0sE-gw-3OM"/>
+                            <constraint firstItem="Mab-U4-iHg" firstAttribute="leading" secondItem="NMy-o8-rrC" secondAttribute="leading" id="7yL-G9-YmH"/>
+                            <constraint firstItem="NMy-o8-rrC" firstAttribute="top" secondItem="Mab-U4-iHg" secondAttribute="bottom" constant="26" id="MCm-vm-l1Y"/>
+                            <constraint firstItem="KGb-nh-dEn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="O9f-rz-hRo"/>
+                            <constraint firstItem="skW-bg-2QR" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="OsL-hI-4fL"/>
+                            <constraint firstItem="KGb-nh-dEn" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Uuo-Dg-n2r"/>
+                            <constraint firstItem="skW-bg-2QR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Y8L-mB-PN7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NMy-o8-rrC" secondAttribute="trailing" constant="71" id="ZGf-Lj-frv"/>
+                            <constraint firstItem="KGb-nh-dEn" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="fmb-gX-HmI"/>
+                            <constraint firstItem="NMy-o8-rrC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="nGU-rI-Wuz"/>
+                            <constraint firstItem="skW-bg-2QR" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="pGD-cU-rIS"/>
+                            <constraint firstItem="KGb-nh-dEn" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="r26-Jp-fvW"/>
+                            <constraint firstItem="skW-bg-2QR" firstAttribute="top" secondItem="DjB-Lw-Nrh" secondAttribute="bottom" constant="8" id="rI8-C2-Wu5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DjB-Lw-Nrh" secondAttribute="trailing" constant="20" id="teD-MA-CfG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.724637681159422" y="374.18478260869568"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Retro-Calc" width="755" height="111"/>
+        <image name="launchbg" width="1433" height="957"/>
+        <image name="launchground" width="999" height="225"/>
+        <image name="robot" width="786" height="402"/>
+    </resources>
+</document>
